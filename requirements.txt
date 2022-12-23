@@ -2,3 +2,4 @@ Flask
 gunicorn
 sklearn
 pandas
+# search for all packages(where __init__ is presents) in current directory not only installs requirements packages also installs custom modules or package(setup.py file is mandatory for using -e) # does the same job as find_packages, while using pip install reuqiremnets needs -e .
